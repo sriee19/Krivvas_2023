@@ -1,0 +1,75 @@
+/*!
+ * jQuery ClassyCountdown
+ * www.class.pm
+ *
+ * Written by Marius Stanciu - Sergiu <marius@class.pm>
+ * Licensed under the MIT license www.class.pm/LICENSE-MIT
+ * Version 1.0.0
+ *
+ */
+/*Countdown start here*/
+.ClassyCountdown-wrapper>div {
+	display: inline-block;
+	position: relative;
+	width: calc(25% - 60px);
+	margin: 10px 30px
+}
+
+.ClassyCountdown-wrapper .ClassyCountdown-value {
+	width: 100%;
+	line-height: 1;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	left: 0;
+	display: block;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 60px !important;
+}
+.ClassyCountdown-wrapper .ClassyCountdown-value {
+	margin-top: -40px !important;
+}
+.ClassyCountdown-wrapper .ClassyCountdown-value span {
+	display: inline-block;
+	-webkit-transform: translateY(-35px);
+	-ms-transform: translateY(-35px);
+	-o-transform: translateY(-35px);
+	transform: translateY(-35px);
+}
+
+@media (max-width: 767px) {
+	.ClassyCountdown-wrapper>div {
+		display: inline-block;
+		width: 46%;
+		margin: 40px 2%;
+	}
+	.ClassyCountdown-wrapper .ClassyCountdown-value {
+		font-size: 60px !important;
+		line-height: 1;
+	}
+	#wrapper .countdown .ClassyCountdown-wrapper > div::before {
+		top: 4% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.ClassyCountdown-wrapper>div {
+		width: calc(50% - 60px);
+	}
+	#wrapper .countdown .ClassyCountdown-wrapper > div::before {
+		top: 10px !important;
+	}
+}
+@media (max-width: 530px) {
+	.ClassyCountdown-wrapper>div {
+		display: inline-block;
+		width: 100%;
+		margin: 20px 0;
+	}
+}
+@media (max-width: 480px) {
+	#wrapper .countdown .ClassyCountdown-wrapper > div::before {
+		top: 3% !important;
+	}
+}
+
