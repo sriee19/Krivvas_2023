@@ -599,7 +599,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-brand img {
-  width: 75%;
+  width: 40%;
 }
 
 .top-nav-collapse {
@@ -2113,9 +2113,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-slide .carousel-item img {
   position: relative;
-  width: 100%;
+
+  width: 50%;
 }
 
+.carousel-item img{
+  background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3));
+  background-size: cover;
+}
 #main-slide .carousel-inner .carousel-item::after {
   bottom: 0;
   content: "";
