@@ -600,8 +600,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-brand img {
-  width: 30%;
-  height: 20%;
+  width: 20%;
+  height: 10%;
 }
 
 .top-nav-collapse {
@@ -833,7 +833,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     top: 0;
   }
   .navbar-brand img {
-    width: 75%;
+    width: 18%;
   }
   #mobile-menu {
     display: none;
