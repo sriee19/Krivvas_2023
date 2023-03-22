@@ -596,10 +596,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  margin-left: 0px;
 }
 
 .navbar-brand img {
-  width: 40%;
+  width: 30%;
+  height: 20%;
 }
 
 .top-nav-collapse {
