@@ -3,6 +3,24 @@ html {
   overflow-x: hidden;
 }
 
+.float{
+	position:fixed;
+	width:90px;
+	height:30px;
+	/* bottom:80px; */
+  top: 40%;
+	right:10px;
+	background-color: #6CB4EE;
+	color:#FFF;
+	border-radius:15px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  /* display: none; */
+}
+
+.my-float{
+	margin-top:22px;
+}
 
 body {
   background: #fff;
@@ -818,6 +836,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .mobile-menu {
   display: none;
 }
+
 
 .slicknav_menu {
   display: none;
