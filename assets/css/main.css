@@ -1125,6 +1125,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .schedule .card-body .location {
+  /* display: flex; */
+  /* justify-content: space-evenly; */
   font-size: 13px;
   color: #777777;
 }
