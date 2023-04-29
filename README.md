@@ -1,2 +1,2 @@
 # KRIVVAS'23
-## Offical Website
+## Offical Website of SONA COLLEGE OF TECHNOLOGY..
